@@ -10,7 +10,7 @@
 #include "nvs_flash.h"
 
 const char* WIFI_SSID = "514-Controller";  // 改成你的WiFi名字
-const char* WIFI_PASS = "123456789";       // 改成你的WiFi密码
+const char* WIFI_PASS = "123456";       // 改成你的WiFi密码
 const char* SERVER_URL = "http://47.111.75.41:3000/led";
 
 bool got_ip = false;
